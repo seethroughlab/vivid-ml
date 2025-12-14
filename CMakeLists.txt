@@ -203,3 +203,12 @@ install(EXPORT vivid-ml-targets
     NAMESPACE vivid::
     DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/vivid-ml
 )
+
+# -----------------------------------------------------------------------------
+# Tests (optional)
+# -----------------------------------------------------------------------------
+option(BUILD_TESTS "Build the test suite" OFF)
+if(BUILD_TESTS)
+    enable_testing()
+    add_subdirectory(tests)
+endif()

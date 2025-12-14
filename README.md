@@ -1,10 +1,14 @@
 # vivid-ml
 
+[![CI](https://github.com/seethroughlab/vivid-ml/actions/workflows/ci.yml/badge.svg)](https://github.com/seethroughlab/vivid-ml/actions/workflows/ci.yml)
+[![Release](https://github.com/seethroughlab/vivid-ml/actions/workflows/release.yml/badge.svg)](https://github.com/seethroughlab/vivid-ml/actions/workflows/release.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Machine learning inference for creative applications via ONNX Runtime.
 
 ## Installation
 
-This addon is included with Vivid by default. Requires ONNX Runtime library.
+[TO DO]
 
 ## Operators
 
