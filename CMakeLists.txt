@@ -178,6 +178,7 @@ endif()
 set(ML_SOURCES
     src/onnx_model.cpp
     src/pose_detector.cpp
+    src/operator_registrations.cpp
 )
 
 add_library(vivid-ml SHARED ${ML_SOURCES})

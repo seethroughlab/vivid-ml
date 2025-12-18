@@ -4,10 +4,17 @@
   "description": "Machine learning inference for creative applications via ONNX Runtime",
   "author": "Vivid",
   "license": "MIT",
+  "repository": "https://github.com/seethroughlab/vivid-ml",
   "vivid": ">=3.0.0",
   "dependencies": ["vivid-video"],
   "operators": [
     "ONNXModel",
     "PoseDetector"
-  ]
+  ],
+  "prebuilt": {
+    "darwin-arm64": "https://github.com/seethroughlab/vivid-ml/releases/download/${version}/vivid-ml-darwin-arm64.tar.gz",
+    "darwin-x64": "https://github.com/seethroughlab/vivid-ml/releases/download/${version}/vivid-ml-darwin-x64.tar.gz",
+    "linux-x64": "https://github.com/seethroughlab/vivid-ml/releases/download/${version}/vivid-ml-linux-x64.tar.gz",
+    "win32-x64": "https://github.com/seethroughlab/vivid-ml/releases/download/${version}/vivid-ml-win32-x64.zip"
+  }
 }
